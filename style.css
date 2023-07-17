@@ -1,0 +1,178 @@
+body {
+  font-family: 'Source Sans Pro', sans-serif;
+  margin: 0px;
+  color: #002b2d;
+}
+
+.heading {
+  font-size: 60px;
+  text-align: left;
+  margin: 25px;
+  clear: both;
+  font-weight:bold;
+}
+
+.header {
+  background-color: rgb(0 134 142);
+  color: #d8ecec;
+  text-align: center;
+  margin: 0px;
+  padding: 10px;
+}
+
+.flex {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  clear: both;
+}
+
+.flex>div {
+  padding: 20px;
+  text-align: center;
+  clear: both;
+
+}
+
+.flex-col {
+  display: flex;
+  flex-direction: column;
+  clear: both;
+}
+
+.button {
+  background-color: #00868e;
+  padding: 10px 30px 10px 30px;
+  border: none;
+  border-radius: 10px;
+  color: white;
+  cursor: pointer;
+}
+
+.locbutton{
+  margin: 0px 10px 30px 0px;
+  background-color: #f2f9fa;
+  padding: 10px 50px 10px 10px;
+  border-color: gray;
+  border-radius: 5px;
+  color: black;
+  cursor: pointer;
+}
+
+.border {
+  border-bottom-style: dashed;
+  border-color: gray;
+}
+
+.sub {
+  background-color: #f2f9fa;
+  padding: 10px 0px 10px 5px;
+  border-radius: 20px;
+  margin: 5px 70px 0px 30px;
+  text-align: left;
+}
+
+.heading1 {
+  text-align: center;
+  margin: 40px;
+  clear: both;
+  }
+
+.logodiv {
+  margin: 50px 50px 100px 50px;
+}
+
+.flex1 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+  clear: both;
+}
+
+.flex1>div {
+  padding: 20px;
+  text-align: left;
+  clear: both;
+
+}
+
+.heading2 {
+  font-size: 60px;
+  text-align: center;
+  margin: 25px;
+  clear: both;
+  font-weight:bold;
+}
+
+.heading3 {
+  font-size: 60px;
+  text-align: left;
+  clear: both;
+  font-weight:bold;
+}
+
+.flex2 {
+  display: flex;
+  flex-direction: row;
+  align-items: top;
+  justify-content:left;
+  clear: both;
+}
+
+.flex2>div {
+  padding: 0px 20px 20px 20px;
+  text-align: left;
+  clear: both;
+
+}
+
+.form {
+  padding: 20px;
+  background-color: #ffffff;
+  border-radius: 5px;
+}
+
+.button1{
+  background-color: white;
+  padding: 10px 50px 10px 50px;
+  border:none;
+  border-radius: 5px;
+  color: black;
+  cursor: pointer;
+}
+
+.button2{
+  background-color: #e8f2f2;
+  padding: 10px 50px 10px 50px;
+  border:none;
+  border-radius: 5px;
+  color: black;
+  cursor: pointer;
+}
+
+input[type=text], select {
+  width: 100%;
+  padding: 12px 0px;
+  margin: 10px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+.flex3 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  clear: both;
+}
+
+.flex3>div {
+  
+  text-align: left;
+  clear: both;
+
+}
