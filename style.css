@@ -95,7 +95,6 @@ body {
   padding: 20px;
   text-align: left;
   clear: both;
-
 }
 
 .heading2 {
@@ -108,6 +107,13 @@ body {
 
 .heading3 {
   font-size: 60px;
+  text-align: left;
+  clear: both;
+  font-weight:bold;
+}
+
+.heading4 {
+  font-size: 45px;
   text-align: left;
   clear: both;
   font-weight:bold;
@@ -162,6 +168,24 @@ input[type=text], select {
   box-sizing: border-box;
 }
 
+input[type=text1], select {
+  background-color: #ffffff;
+  padding: 10px 30px;
+  border: none;
+  border-radius: 4px;
+  color: black;
+  cursor: pointer;
+}
+
+input[type=submit]{
+  background-color: #00868e;
+  padding: 10px 30px;
+  border: none;
+  border-radius: 10px;
+  color: white;
+  cursor: pointer;
+}
+
 .flex3 {
   display: flex;
   flex-direction: row;
@@ -171,7 +195,52 @@ input[type=text], select {
 }
 
 .flex3>div {
+  padding: 5px;
+  text-align: left;
+  clear: both;
+
+}
+
+.flex4 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content:first baseline;
+  clear: both;
+}
+
+.flex4>div {
+  padding: 5px;
+  text-align: left;
+  clear: both;
+}
+
+.flex5 {
+  display: flex;
+  flex-direction: row;
+  align-items: top;
+  justify-content:left;
+  clear: both;
+}
+
+.flex5>div {
   
+  text-align: left;
+  clear: both;
+
+}
+
+.flex6 {
+  display: flex;
+  flex-direction: row;
+  align-items: top;
+  justify-content:space-between;
+  clear: both;
+  padding: 30px;
+}
+
+.flex6>div {
+  padding: 20px;
   text-align: left;
   clear: both;
 
